@@ -4,36 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <p><a href="index.html">Homepage</a></p>
-                    <p></p><a href="about.html">About us</a></p>
-                    <p> <a href="contact.html">Contact us</a></p>
-                    <p><a href="contents.html">Contents</a></p>
-
-                </li>
-            </ul>
-
-        </nav>
-        <img src="jeff.jpeg" alt="jeff" width="60x60" height="60x60">
-
-        <div class="profile">
-            <img src="dangote.jpeg" alt="dangote" width="80x80" height="80x80">
-
-        </div>
+        <h1>Contact Page</h1>
     </header>
 
     <main>
+        <form>
+
+            <label for="firstName">First Name</label> <br>
+            <input type="text" name="firstName" placeholder="Amir" required> <br>
+
+            <label for="lastName">Last Name</label> <br>
+            <input type="text" name="lastName" placeholder="Adamu" required> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder="amiradamu11@gmail.com"> <br>
+
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value=""></option>
+                <option value="Male">Male</option>
+                <option value="Femlae">Female</option>
+            </select><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message"></textarea><br>
+
+            <button type="submit">Send</button><br>
+            <p><a href="index.html"></a></p>
+
+            <p><a href="index.html">Homepage</a></p>
 
 
+        </form>
     </main>
 
     <footer>
